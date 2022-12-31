@@ -1,0 +1,51 @@
+body {
+background: paleturquoise;
+  color: #2a2438;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 20%;
+}
+
+hr {
+  height: 4px;
+  background-color: rgb(3, 53, 71);
+}
+
+a:link {
+  color: #f70776;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container div {
+  padding: 10px;
+  text-indent: 10px;
+  width: 45%;
+}
+
+section ul{
+  padding-left: 0%;
+}
+@media only screen and (max-width: 600px) {
+body{
+  margin: 10%;
+}
+
+  hr {
+    height: 4px;
+    background-color: rgb(3, 53, 71);
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .container div {
+    padding: 20px;
+    width: auto;
+
+  }
+}
